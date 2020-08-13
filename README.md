@@ -42,10 +42,10 @@ adb devices
 ## Screenshots
 
 # AudioPlay list
-[click Here](https://drive.google.com/file/d/1WqcMNZbQ5JzxqczsYJVjt-hyJgBsFIjt/view?usp=sharing)
+![click Here](https://drive.google.com/file/d/1WqcMNZbQ5JzxqczsYJVjt-hyJgBsFIjt/view?usp=sharing)
 
 # Player Details 
-[click Here](https://drive.google.com/file/d/16H8JIt8bKBXkO3c2QD2Aslmnf_n1ct46/view?usp=sharing)
+![click Here](https://drive.google.com/file/d/16H8JIt8bKBXkO3c2QD2Aslmnf_n1ct46/view?usp=sharing)
 
 
 
