@@ -1,10 +1,10 @@
-import React from 'react';
-import { View, Text, Slider, ActivityIndicator, Image, H3 } from "react-native";
-import styles from "./styles";
-import Play from '../../components/play';
-import Spinner from 'react-native-loading-spinner-overlay';
 import { Icon } from 'native-base';
+import React from 'react';
+import { Image, Text, View } from "react-native";
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import Spinner from 'react-native-loading-spinner-overlay';
+import Play from '../../components/play';
+import styles from "./styles";
 
 
 const millisToMinutesAndSeconds = (millis) => {

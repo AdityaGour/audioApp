@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
-    FlatList, StyleSheet,
-    Text, View,
-    Image,
-    Button,
-    TouchableOpacity,
-    ActivityIndicator,
-} from 'react-native';
-import Play from '../../components/play';
-import Spinner from 'react-native-loading-spinner-overlay';
+    FlatList,
 
+    Image, Text,
+
+
+    TouchableOpacity, View
+} from 'react-native';
+import Spinner from 'react-native-loading-spinner-overlay';
+import Play from '../../components/play';
 import styles from "./styles";
-import { Icon } from 'native-base';
+
 const millisToMinutesAndSeconds = (millis) => {
     var minutes = Math.floor(millis / 60000);
     var seconds = ((millis % 60000) / 1000).toFixed(0);

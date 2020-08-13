@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AudioView from './audioView';
 import { AudioData } from '../../constants/constantData';
+import AudioView from './audioView';
 
 export default class AudioListContainer extends Component {
     constructor(props) {

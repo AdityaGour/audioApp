@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import MusicPlayer from '../../components/musicPlayer'
-import { View, Text, Slider, ActivityIndicator } from "react-native";
-import { Button, Icon } from "native-base";
-import { StyleSheet } from 'react-native'
-import Video from "react-native-video";
-import Play from '../../components/play';
-import SongDetailsView from './songDetailsView';
+import { StyleSheet } from 'react-native';
 import { AudioData } from '../../constants/constantData';
+import SongDetailsView from './songDetailsView';
 
 export default class SongDetails extends Component {
     constructor(props) {
