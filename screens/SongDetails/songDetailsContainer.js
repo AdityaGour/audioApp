@@ -14,7 +14,8 @@ export default class SongDetails extends Component {
         this.state = {
             paused: true,
             item: AudioData.results[0], // index,
-            spinner: true
+            spinner: true,
+            index: this.props.navigation.getParam('index'),
         }
     }
     componentDidMount() {
@@ -22,7 +23,7 @@ export default class SongDetails extends Component {
     }
 
     loaderSpinner = () => {
-        setTimeout(() => { this.setState({ spinner: false }) }, 3000)
+        setTimeout(() => { this.setState({ spinner: false , item:AudioData.results[parseInt(this.state.index) -1] }) }, 3000)
     }
     goBack = () => {
         this.props.navigation.goBack();

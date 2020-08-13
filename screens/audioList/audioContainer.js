@@ -24,8 +24,8 @@ export default class AudioListContainer extends Component {
         setTimeout(() => { this.setState({ spinner: false }) }, 3000)
     }
 
-    nextScreen = () => {
-        this.props.navigation.navigate('Profile')
+    nextScreen = (index) => {
+        this.props.navigation.navigate('Profile',{index:index});
     }
 
     render() {
